@@ -1,0 +1,11 @@
+.btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px;
+    transition-timing-function: ease-in-out;
+
+}

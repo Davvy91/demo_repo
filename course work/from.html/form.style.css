@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+
+[type="text"] {
+    background-color: coral;
+}
+
+
+input[type="submit"],
+[type="reset"] {
+    padding: 12px;
+}
+
+input[type="submit"]:hover,
+[type="reset"]:hover {
+    background-color: darkmagenta;
+}
+
+input[type="email"]:focus {
+    outline: 4px solid purple;
+}
+
+input[type="radio"]:focus {
+    outline: 5px solid chartreuse;
+}

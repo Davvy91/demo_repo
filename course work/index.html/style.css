@@ -1,0 +1,20 @@
+/* tag selector*/
+p {
+    color: darkblue;
+}
+
+/* id selector */
+#page-title {
+    color: darkgoldenrod;
+}
+
+/* class selector */
+.subtitle {
+    color: chartreuse;
+}
+
+.call-us {
+    text-decoration: overline;
+}
+
+/* combine select */

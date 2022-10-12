@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css
+	">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do App</title>
+</head>
+
+<body>
+
+    <section class="container mt-5 w-75">
+        <form action="" class="col todo-form">
+            <label class='col-form-label' for="todo-input">To Do</label>
+            <input class='form-control mx-2 flex' type="text" name="todo" id="todo-input">
+            <button class='btn btn-primary' id="add-btn">Add</button>
+        </form>
+        <section class="mt-4">
+            <button class='btn btn-danger' id="clear-all">Clear All</button>
+        </section>
+
+        <section class="container">
+            <ul id="todo-list">
+            </ul>
+        </section>
+
+
+    </section>
+</body>
+
+</html>
